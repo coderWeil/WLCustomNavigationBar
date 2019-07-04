@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "Core/WLNavigationBar.h"
+#import "WLNavigationBar.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) WLNavigationBar *navBar1;

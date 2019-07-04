@@ -13,10 +13,12 @@
 		33EFD70622CCC1DC00BC6E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33EFD70522CCC1DC00BC6E85 /* Assets.xcassets */; };
 		33EFD70922CCC1DC00BC6E85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33EFD70722CCC1DC00BC6E85 /* LaunchScreen.storyboard */; };
 		33EFD70C22CCC1DC00BC6E85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EFD70B22CCC1DC00BC6E85 /* main.m */; };
-		33EFD71722CCC25A00BC6E85 /* WLNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EFD71622CCC25A00BC6E85 /* WLNavigationBar.m */; };
+		33EFDA0B22CDD80900BC6E85 /* WLNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EFDA0A22CDD80900BC6E85 /* WLNavigationBar.m */; };
+		B4F649F6F28EBEBF6F69E4BE /* libPods-WLCustomNavigationBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 683FE51C7D9CE56D0260DB05 /* libPods-WLCustomNavigationBar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A74C84FD8246CBF60C4BAA8 /* Pods-WLCustomNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLCustomNavigationBar.release.xcconfig"; path = "Target Support Files/Pods-WLCustomNavigationBar/Pods-WLCustomNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
 		33EFD6F922CCC1DA00BC6E85 /* WLCustomNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLCustomNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EFD6FC22CCC1DA00BC6E85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33EFD6FD22CCC1DA00BC6E85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +29,10 @@
 		33EFD70822CCC1DC00BC6E85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33EFD70A22CCC1DC00BC6E85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33EFD70B22CCC1DC00BC6E85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33EFD71522CCC25A00BC6E85 /* WLNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLNavigationBar.h; sourceTree = "<group>"; };
-		33EFD71622CCC25A00BC6E85 /* WLNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLNavigationBar.m; sourceTree = "<group>"; };
+		33EFDA0922CDD80900BC6E85 /* WLNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLNavigationBar.h; sourceTree = "<group>"; };
+		33EFDA0A22CDD80900BC6E85 /* WLNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLNavigationBar.m; sourceTree = "<group>"; };
+		683FE51C7D9CE56D0260DB05 /* libPods-WLCustomNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLCustomNavigationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1613A0F4D51490B452600B /* Pods-WLCustomNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLCustomNavigationBar.debug.xcconfig"; path = "Target Support Files/Pods-WLCustomNavigationBar/Pods-WLCustomNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +40,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F649F6F28EBEBF6F69E4BE /* libPods-WLCustomNavigationBar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05B221D6C41D92DE738AB9A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B1613A0F4D51490B452600B /* Pods-WLCustomNavigationBar.debug.xcconfig */,
+				1A74C84FD8246CBF60C4BAA8 /* Pods-WLCustomNavigationBar.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		33EFD6F022CCC1DA00BC6E85 = {
 			isa = PBXGroup;
 			children = (
 				33EFD6FB22CCC1DA00BC6E85 /* WLCustomNavigationBar */,
 				33EFD6FA22CCC1DA00BC6E85 /* Products */,
+				05B221D6C41D92DE738AB9A3 /* Pods */,
+				A86915BB4DE3B78E0DF55DAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +78,7 @@
 		33EFD6FB22CCC1DA00BC6E85 /* WLCustomNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				33EFD71422CCC24700BC6E85 /* Core */,
+				33EFDA0722CDD80900BC6E85 /* WLNavigationBar */,
 				33EFD6FC22CCC1DA00BC6E85 /* AppDelegate.h */,
 				33EFD6FD22CCC1DA00BC6E85 /* AppDelegate.m */,
 				33EFD6FF22CCC1DA00BC6E85 /* ViewController.h */,
@@ -75,13 +92,30 @@
 			path = WLCustomNavigationBar;
 			sourceTree = "<group>";
 		};
-		33EFD71422CCC24700BC6E85 /* Core */ = {
+		33EFDA0722CDD80900BC6E85 /* WLNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				33EFD71522CCC25A00BC6E85 /* WLNavigationBar.h */,
-				33EFD71622CCC25A00BC6E85 /* WLNavigationBar.m */,
+				33EFDA0822CDD80900BC6E85 /* Core */,
+			);
+			name = WLNavigationBar;
+			path = ../../WLNavigationBar;
+			sourceTree = "<group>";
+		};
+		33EFDA0822CDD80900BC6E85 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				33EFDA0922CDD80900BC6E85 /* WLNavigationBar.h */,
+				33EFDA0A22CDD80900BC6E85 /* WLNavigationBar.m */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		A86915BB4DE3B78E0DF55DAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				683FE51C7D9CE56D0260DB05 /* libPods-WLCustomNavigationBar.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +125,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33EFD70F22CCC1DC00BC6E85 /* Build configuration list for PBXNativeTarget "WLCustomNavigationBar" */;
 			buildPhases = (
+				59F9A704A4DADCD082FB3DC1 /* [CP] Check Pods Manifest.lock */,
 				33EFD6F522CCC1DA00BC6E85 /* Sources */,
 				33EFD6F622CCC1DA00BC6E85 /* Frameworks */,
 				33EFD6F722CCC1DA00BC6E85 /* Resources */,
@@ -149,12 +184,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		59F9A704A4DADCD082FB3DC1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WLCustomNavigationBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33EFD6F522CCC1DA00BC6E85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33EFD71722CCC25A00BC6E85 /* WLNavigationBar.m in Sources */,
+				33EFDA0B22CDD80900BC6E85 /* WLNavigationBar.m in Sources */,
 				33EFD70122CCC1DA00BC6E85 /* ViewController.m in Sources */,
 				33EFD70C22CCC1DC00BC6E85 /* main.m in Sources */,
 				33EFD6FE22CCC1DA00BC6E85 /* AppDelegate.m in Sources */,
@@ -297,6 +357,7 @@
 		};
 		33EFD71022CCC1DC00BC6E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1613A0F4D51490B452600B /* Pods-WLCustomNavigationBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,6 +375,7 @@
 		};
 		33EFD71122CCC1DC00BC6E85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A74C84FD8246CBF60C4BAA8 /* Pods-WLCustomNavigationBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

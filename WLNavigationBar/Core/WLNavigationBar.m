@@ -15,6 +15,7 @@
 @property (nonatomic, strong) UIView *titleItem;
 @property (nonatomic, assign) CGFloat margin;
 @property (nonatomic, assign) CGFloat itemSpacing;
+@property (nonatomic, strong) UIView *lineView;
 @end
 
 @implementation WLNavigationBar
@@ -38,6 +39,8 @@
 {
     self.leftItemArr = @[].mutableCopy;
     self.rightItemArr = @[].mutableCopy;
+    self.lineView = [UIView new];
+    [self addSubview:self.lineView];
 }
 - (void)wl_addLeftItem:(UIView *)item
 {
@@ -175,6 +178,14 @@
 {
     self.itemSpacing = space;
 }
+- (void)wl_setLineViewColor:(UIColor *)color
+{
+    self.lineView.backgroundColor = color;
+}
+- (void)wl_setLineAlpha:(CGFloat)alpha
+{
+    self.lineView.alpha = alpha;
+}
 - (void)wl_reload
 {
     CGFloat x = 0, y = 0, w = 0, h = 0, leftMaxX = 0, rightMinX = 0;
@@ -207,5 +218,11 @@
     y = WL_STATUS_BAR_H + (self.frame.size.height - WL_STATUS_BAR_H - h) / 2.0;
     x = leftMaxX + (rightMinX - leftMaxX - w) / 2.0;
     self.titleItem.frame = CGRectMake(x, y, w, h);
+    
+    x = 0;
+    y = self.frame.size.height - 0.5;
+    w = self.frame.size.width;
+    h = 0.5;
+    self.lineView.frame = CGRectMake(x, y, w, h);
 }
 @end

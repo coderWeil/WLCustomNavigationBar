@@ -1,0 +1,18 @@
+PODS:
+  - WLNavigationBar (0.0.2):
+    - WLNavigationBar/Core (= 0.0.2)
+  - WLNavigationBar/Core (0.0.2)
+
+DEPENDENCIES:
+  - WLNavigationBar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - WLNavigationBar
+
+SPEC CHECKSUMS:
+  WLNavigationBar: 5cd0713a0103d7fd489bfc0242a451bc1277edd1
+
+PODFILE CHECKSUM: 47886a6278a60a3296308ce3f7a36c859faa4fc6
+
+COCOAPODS: 1.6.1

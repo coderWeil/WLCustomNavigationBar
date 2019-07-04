@@ -61,6 +61,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) wl_setMargin:(CGFloat)margin;
 //设置左或者右每两个item之间的间距,默认是0
 - (void) wl_setItemSpace:(CGFloat)space;
+//设置底部细线的颜色
+- (void) wl_setLineViewColor:(UIColor *)color;
+//设置底部细线的透明度
+- (void) wl_setLineAlpha:(CGFloat)alpha;
 @end
 
 NS_ASSUME_NONNULL_END
