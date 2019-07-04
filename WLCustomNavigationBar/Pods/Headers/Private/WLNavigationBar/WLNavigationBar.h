@@ -1,1 +1,0 @@
-../../../WLNavigationBar/WLNavigationBar/Core/WLNavigationBar.h
