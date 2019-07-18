@@ -54,5 +54,14 @@
 {
     
 }
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    UIButton *rightItem1 = [UIButton buttonWithType:UIButtonTypeCustom];
+    [rightItem1 setTitle:@"rightItem2" forState:UIControlStateNormal];
+    [rightItem1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    rightItem1.titleLabel.font = [UIFont systemFontOfSize:15];
+    [self.navBar1 wl_updateTitleItem:rightItem1];
+    [self.navBar1 wl_reload];
+}
 
 @end

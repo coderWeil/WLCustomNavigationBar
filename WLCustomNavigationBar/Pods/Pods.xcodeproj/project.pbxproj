@@ -7,47 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33B70E9D16A76B424F96DC9C1692FE00 /* WLNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F921C8184AD1513B0D40A2196BA0EF /* WLNavigationBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6BFD2232BD6BE30216E6A3CFB7EA640D /* Pods-WLCustomNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87632BDCB7E7B5576CE48DACDBAF72 /* Pods-WLCustomNavigationBar-dummy.m */; };
-		D033294D69CF016E5F45B71ED2B394C3 /* WLNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA94DAEB0140E6DB73AA4E416461F23 /* WLNavigationBar.m */; };
-		F87EC66059C27EA636C859211644F1B8 /* WLNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB560A10EAB467A87CC3F932892A682 /* WLNavigationBar-dummy.m */; };
+		26AD84448108EF761C929C6A4421AF99 /* Pods-WLCustomNavigationBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C87632BDCB7E7B5576CE48DACDBAF72 /* Pods-WLCustomNavigationBar-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CB5375C76EE7F3DE26CFBA7C538ADC31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 80BF127572405EA1BC1497D1BA347498;
-			remoteInfo = WLNavigationBar;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		06CBA78A65EA2158ECAAD63BAB8AEAFE /* libPods-WLCustomNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WLCustomNavigationBar.a"; path = "libPods-WLCustomNavigationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE6B75A1F5C0FD653CD351F6E3D4AA6 /* Pods-WLCustomNavigationBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLCustomNavigationBar-acknowledgements.plist"; sourceTree = "<group>"; };
 		4C87632BDCB7E7B5576CE48DACDBAF72 /* Pods-WLCustomNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLCustomNavigationBar-dummy.m"; sourceTree = "<group>"; };
-		5CC9797D09030304069B21320FB16722 /* libPods-WLCustomNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WLCustomNavigationBar.a"; path = "libPods-WLCustomNavigationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67EC8CE8D0437562A5472A2FC5198582 /* WLNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLNavigationBar-prefix.pch"; sourceTree = "<group>"; };
 		968C2FA064C2463263C5C44B76718A44 /* Pods-WLCustomNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLCustomNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BBA94DAEB0140E6DB73AA4E416461F23 /* WLNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLNavigationBar.m; path = WLNavigationBar/Core/WLNavigationBar.m; sourceTree = "<group>"; };
-		C5F921C8184AD1513B0D40A2196BA0EF /* WLNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLNavigationBar.h; path = WLNavigationBar/Core/WLNavigationBar.h; sourceTree = "<group>"; };
 		DB33E45139CA40760A26B96686D1EF32 /* Pods-WLCustomNavigationBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLCustomNavigationBar-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E11220219822623BDAD07013D3A0C37A /* libWLNavigationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWLNavigationBar.a; path = libWLNavigationBar.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E976E4760B4833D5BDF19828B69B7BD1 /* Pods-WLCustomNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLCustomNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
-		FBB560A10EAB467A87CC3F932892A682 /* WLNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLNavigationBar-dummy.m"; sourceTree = "<group>"; };
-		FDEC3BB39E54C09C3F61A5BDAF6DEAAD /* WLNavigationBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLNavigationBar.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		95497E74712F46EE97A43498E29432D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5A7B248164D7D62DAD78D33A3FBB481 /* Frameworks */ = {
+		B8AB70F742D9AA0F5530ADCFB40448D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,15 +31,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DE7E89C33530F8AD46EA5EEAADD5EF1 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				C5F921C8184AD1513B0D40A2196BA0EF /* WLNavigationBar.h */,
-				BBA94DAEB0140E6DB73AA4E416461F23 /* WLNavigationBar.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		2E4E867A1766224B66116503857F1F0C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -87,41 +52,12 @@
 			path = "Target Support Files/Pods-WLCustomNavigationBar";
 			sourceTree = "<group>";
 		};
-		4D2C0557E71214364B2EC3BCE4F259C7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EEC72F54EF071C27EAC46897A28BF237 /* WLNavigationBar */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		52F23E1CEB77ECE204E02718BA628F8A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5CC9797D09030304069B21320FB16722 /* libPods-WLCustomNavigationBar.a */,
-				E11220219822623BDAD07013D3A0C37A /* libWLNavigationBar.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B8F2EEEDF535041D1268620BB808C648 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FDEC3BB39E54C09C3F61A5BDAF6DEAAD /* WLNavigationBar.xcconfig */,
-				FBB560A10EAB467A87CC3F932892A682 /* WLNavigationBar-dummy.m */,
-				67EC8CE8D0437562A5472A2FC5198582 /* WLNavigationBar-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/WLNavigationBar";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				4D2C0557E71214364B2EC3BCE4F259C7 /* Pods */,
-				52F23E1CEB77ECE204E02718BA628F8A /* Products */,
+				D9E2C5BCBFA3D91EB9B28207E51F44A9 /* Products */,
 				2E4E867A1766224B66116503857F1F0C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -133,70 +69,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EEC72F54EF071C27EAC46897A28BF237 /* WLNavigationBar */ = {
+		D9E2C5BCBFA3D91EB9B28207E51F44A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DE7E89C33530F8AD46EA5EEAADD5EF1 /* Core */,
-				B8F2EEEDF535041D1268620BB808C648 /* Support Files */,
+				06CBA78A65EA2158ECAAD63BAB8AEAFE /* libPods-WLCustomNavigationBar.a */,
 			);
-			name = WLNavigationBar;
-			path = WLNavigationBar;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EEC68C374AFACBE7523DC0728E7C7B1B /* Headers */ = {
+		CA9304905DB54C9A77E871D7A28FE741 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8E511AC7CA3E3725C93276847C3C905 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33B70E9D16A76B424F96DC9C1692FE00 /* WLNavigationBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		417F712BEEFE12E208E0664D5DED3D13 /* Pods-WLCustomNavigationBar */ = {
+		588745595EB0A693155FEA35CDA1D8FA /* Pods-WLCustomNavigationBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A0330AAEA0E81F7A50494B8B67B5CE7D /* Build configuration list for PBXNativeTarget "Pods-WLCustomNavigationBar" */;
+			buildConfigurationList = 1ED7856669EE2E60DD265B146AE3DB20 /* Build configuration list for PBXNativeTarget "Pods-WLCustomNavigationBar" */;
 			buildPhases = (
-				EEC68C374AFACBE7523DC0728E7C7B1B /* Headers */,
-				89D1E2057B357E512D25E23FE45C9CA9 /* Sources */,
-				F5A7B248164D7D62DAD78D33A3FBB481 /* Frameworks */,
+				CA9304905DB54C9A77E871D7A28FE741 /* Headers */,
+				AA707BB7AD9BD9E0A5D0DB64CF1FCEF7 /* Sources */,
+				B8AB70F742D9AA0F5530ADCFB40448D3 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E0D5ABDB5E84D4415B8FE79AD85D99F9 /* PBXTargetDependency */,
 			);
 			name = "Pods-WLCustomNavigationBar";
 			productName = "Pods-WLCustomNavigationBar";
-			productReference = 5CC9797D09030304069B21320FB16722 /* libPods-WLCustomNavigationBar.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		80BF127572405EA1BC1497D1BA347498 /* WLNavigationBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 854D45E151BC8D00B0704F403C51460A /* Build configuration list for PBXNativeTarget "WLNavigationBar" */;
-			buildPhases = (
-				F8E511AC7CA3E3725C93276847C3C905 /* Headers */,
-				5C57373FBFBBACB47DBCCF58C1AD2EA3 /* Sources */,
-				95497E74712F46EE97A43498E29432D3 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WLNavigationBar;
-			productName = WLNavigationBar;
-			productReference = E11220219822623BDAD07013D3A0C37A /* libWLNavigationBar.a */;
+			productReference = 06CBA78A65EA2158ECAAD63BAB8AEAFE /* libPods-WLCustomNavigationBar.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -216,44 +124,25 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 52F23E1CEB77ECE204E02718BA628F8A /* Products */;
+			productRefGroup = D9E2C5BCBFA3D91EB9B28207E51F44A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				417F712BEEFE12E208E0664D5DED3D13 /* Pods-WLCustomNavigationBar */,
-				80BF127572405EA1BC1497D1BA347498 /* WLNavigationBar */,
+				588745595EB0A693155FEA35CDA1D8FA /* Pods-WLCustomNavigationBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5C57373FBFBBACB47DBCCF58C1AD2EA3 /* Sources */ = {
+		AA707BB7AD9BD9E0A5D0DB64CF1FCEF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F87EC66059C27EA636C859211644F1B8 /* WLNavigationBar-dummy.m in Sources */,
-				D033294D69CF016E5F45B71ED2B394C3 /* WLNavigationBar.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89D1E2057B357E512D25E23FE45C9CA9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6BFD2232BD6BE30216E6A3CFB7EA640D /* Pods-WLCustomNavigationBar-dummy.m in Sources */,
+				26AD84448108EF761C929C6A4421AF99 /* Pods-WLCustomNavigationBar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E0D5ABDB5E84D4415B8FE79AD85D99F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WLNavigationBar;
-			target = 80BF127572405EA1BC1497D1BA347498 /* WLNavigationBar */;
-			targetProxy = CB5375C76EE7F3DE26CFBA7C538ADC31 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		07488D4657FB0A78086563621D425F8A /* Debug */ = {
@@ -320,7 +209,28 @@
 			};
 			name = Debug;
 		};
-		28BA5D867C6916EED31A29554CA58E51 /* Release */ = {
+		288686F197DE9348E4D3A834B95A6FF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E976E4760B4833D5BDF19828B69B7BD1 /* Pods-WLCustomNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6D07B010D689DC379565F25B0858BE56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 968C2FA064C2463263C5C44B76718A44 /* Pods-WLCustomNavigationBar.release.xcconfig */;
 			buildSettings = {
@@ -341,29 +251,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		8FFBF26AB3995E4807761C048D1AABA3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDEC3BB39E54C09C3F61A5BDAF6DEAAD /* WLNavigationBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WLNavigationBar/WLNavigationBar-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WLNavigationBar;
-				PRODUCT_NAME = WLNavigationBar;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -425,77 +312,23 @@
 			};
 			name = Release;
 		};
-		EFB36AFCBDEC9EAEBF6AACAA366E23C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDEC3BB39E54C09C3F61A5BDAF6DEAAD /* WLNavigationBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/WLNavigationBar/WLNavigationBar-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = WLNavigationBar;
-				PRODUCT_NAME = WLNavigationBar;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F4478CA85C37685571448979256EDA76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E976E4760B4833D5BDF19828B69B7BD1 /* Pods-WLCustomNavigationBar.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1ED7856669EE2E60DD265B146AE3DB20 /* Build configuration list for PBXNativeTarget "Pods-WLCustomNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288686F197DE9348E4D3A834B95A6FF0 /* Debug */,
+				6D07B010D689DC379565F25B0858BE56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07488D4657FB0A78086563621D425F8A /* Debug */,
 				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		854D45E151BC8D00B0704F403C51460A /* Build configuration list for PBXNativeTarget "WLNavigationBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FFBF26AB3995E4807761C048D1AABA3 /* Debug */,
-				EFB36AFCBDEC9EAEBF6AACAA366E23C8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A0330AAEA0E81F7A50494B8B67B5CE7D /* Build configuration list for PBXNativeTarget "Pods-WLCustomNavigationBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F4478CA85C37685571448979256EDA76 /* Debug */,
-				28BA5D867C6916EED31A29554CA58E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

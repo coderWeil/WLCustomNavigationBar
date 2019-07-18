@@ -19,14 +19,6 @@
 @end
 
 @implementation WLNavigationBar
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        [self _init];
-    }
-    return self;
-}
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

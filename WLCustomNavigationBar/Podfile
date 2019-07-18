@@ -2,5 +2,5 @@
  platform :ios, '9.0'
 
 target 'WLCustomNavigationBar' do
-  pod 'WLNavigationBar'
+#  pod 'WLNavigationBar'
 end
