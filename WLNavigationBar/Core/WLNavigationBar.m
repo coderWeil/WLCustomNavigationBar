@@ -180,7 +180,7 @@
 }
 - (void)wl_reload
 {
-    CGFloat x = 0, y = 0, w = 0, h = 0, leftMaxX = 0, rightMinX = 0;
+    CGFloat x = 0, y = 0, w = 0, h = 0, leftMaxX = 0, rightMinX = self.frame.size.width - self.margin;
     x = self.margin;
     for (int i = 0; i < self.leftItemArr.count; ++i) {
         UIView *item = self.leftItemArr[i];
