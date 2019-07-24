@@ -216,6 +216,7 @@
     y = WL_STATUS_BAR_H + (self.frame.size.height - WL_STATUS_BAR_H - h) / 2.0;
     x = leftMaxX + (rightMinX - leftMaxX - w) / 2.0;
     self.titleItem.frame = CGRectMake(x, y, w, h);
+    self.titleItem.center = CGPointMake(self.frame.size.width * 0.5, self.titleItem.center.y);
     
     x = 0;
     y = self.frame.size.height - 0.5;
