@@ -204,6 +204,12 @@
         x = CGRectGetMinX(item.frame) - self.itemSpacing;
         rightMinX = x;
     }
+    if (leftMaxX > self.frame.size.width - rightMinX) {
+        rightMinX = self.frame.size.width - leftMaxX;
+    }
+    if (self.frame.size.width - rightMinX > leftMaxX) {
+        leftMaxX = self.frame.size.width - rightMinX;
+    }
     [self.titleItem sizeToFit];
     w = MIN(self.titleItem.frame.size.width, rightMinX - leftMaxX - self.itemSpacing * 2);
     h = self.titleItem.frame.size.height;
