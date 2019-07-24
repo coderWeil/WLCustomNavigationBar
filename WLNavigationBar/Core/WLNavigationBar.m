@@ -36,21 +36,33 @@
 }
 - (void)wl_addLeftItem:(UIView *)item
 {
+    if ([self.leftItemArr containsObject:item]) {
+        return;
+    }
     [self addSubview:item];
     [self.leftItemArr addObject:item];
 }
 - (void)wl_insertLeftItem:(UIView *)item atIndex:(int)index
 {
+    if ([self.leftItemArr containsObject:item]) {
+        return;
+    }
     [self addSubview:item];
     [self.leftItemArr insertObject:item atIndex:index];
 }
 - (void)wl_addRightItem:(UIView *)item
 {
+    if ([self.rightItemArr containsObject:item]) {
+        return;
+    }
     [self addSubview:item];
     [self.rightItemArr addObject:item];
 }
 - (void)wl_insertRightItem:(UIView *)item atIndex:(int)index
 {
+    if ([self.rightItemArr containsObject:item]) {
+        return;
+    }
     [self addSubview:item];
     [self.rightItemArr insertObject:item atIndex:index];
 }
